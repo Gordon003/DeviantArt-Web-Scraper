@@ -16,9 +16,10 @@ driver.maximize_window()
 #user = "gordon003"
 #user = "astral-btlm"
 #user = "mother-of-trolls"
+user = "alegwen714"
 #user = "sagraphics1997"
 #user = "gaby-sunflower"
-user = "blueparadicey"
+#user = "blueparadicey"
 
 # Access its main folder
 driver.get("https://www.deviantart.com/" + user + "/gallery/all")
@@ -69,6 +70,11 @@ while True:
 
 	# Get last available artwork and start from there
 	curr_artworks_container = last_container.findAll("span", {"class": "_1TFfi"})
+
+	# If no more artwork, break
+	if len(curr_artworks_container) == 0:
+		break
+
 	curr_last_artwork = curr_artworks_container[-1].a["href"]
 	curr_last_artwork_link = "//a[@href='" + curr_last_artwork + "']"
 
