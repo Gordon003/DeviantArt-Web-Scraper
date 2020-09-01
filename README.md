@@ -9,10 +9,10 @@ There are 2 different version:
   * Saves data in csv. format
   
 * deviantart_2.py
- * A slower but better version of deviantart_1.py
- * Achieve everything deviantart_1.py outlined
- * Can also access its view
- * Also enables to select artwork that has specific tags
+  * A slower but better version of deviantart_1.py
+  * Achieve everything deviantart_1.py outlined
+  * Can also access its view
+  * Also enables to select artwork that has specific tags
 
 To go through specific artists, just add their username into the variable user_list and must be undercase.
 You can find their username their URL "https://www.deviantart.com/USERNAME"
