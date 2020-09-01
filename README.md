@@ -11,7 +11,7 @@ There are 2 different version:
 * _deviantart_2.py_
   * A slower but better version of deviantart_1.py
   * Achieve everything deviantart_1.py outlined
-  * Can also access its view
+  * Can also access how much view it gets and year this artwork is published at
   * Also enables to select artwork that has specific tags
   * Saves data in csv. format (gordon003_2.csv)
 
