@@ -14,11 +14,18 @@ There are 2 different version:
  * Can also access its view
  * Also enables to select artwork that has specific tags
 
-To go through specific artists, just add it into the variable user_list
+To go through specific artists, just add their username into the variable user_list and must be undercase.
+You can find their username their URL "https://www.deviantart.com/USERNAME"
 ```python
-# Set up screen size 800 x 600
+# Users you want to check
 user_list = ["gordon003"]
 user_list = ["gordon003", "gordon003-others"]
+```
+
+For deviantart_2.py, you can add hashtags you want into the list which also must be undercase.
+```python
+# Hashtags you want
+tags_list = ["totaldrama"]
 ```
 
 ## Requirement
