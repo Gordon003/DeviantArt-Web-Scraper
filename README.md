@@ -18,4 +18,19 @@ To go through specific artists, just add it into the variable user_list
 ```python
 # Set up screen size 800 x 600
 user_list = ["gordon003"]
+user_list = ["gordon003", "gordon003-others"]
 ```
+
+## Requirement
+* Python
+ * Latest Version
+* Selenium
+ * https://selenium-python.readthedocs.io/installation.html
+ * https://www.youtube.com/watch?v=Xjv1sY630Uc
+* BeautifulSoup
+ * https://www.crummy.com/software/BeautifulSoup/bs4/doc/
+ * https://www.youtube.com/watch?v=ng2o98k983k
+* Chrome Driver (for Selenium web driver)
+ * https://chromedriver.chromium.org/getting-started
+* Google Chrome
+ * Can also use Firefox but you need to change the code
