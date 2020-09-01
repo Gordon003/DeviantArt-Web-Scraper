@@ -6,14 +6,14 @@ There are 2 different version:
   * A quick version of web scraper
   * Gives you each artwork amount of favs, comments and its link
   * Allows you iterate over specific username
-  * Saves data in csv. format (gordon003_1.csv)
+  * Saves data in csv. format (_gordon003_1.csv_)
   
 * _deviantart_2.py_
-  * A slower but better version of deviantart_1.py
-  * Achieve everything deviantart_1.py outlined
+  * A slower but better version of _deviantart_1.py_
+  * Achieve everything _deviantart_1.py_ outlined
   * Can also access how much view it gets and year this artwork is published at
   * Also enables to select artwork that has specific tags
-  * Saves data in csv. format (gordon003_2.csv)
+  * Saves data in csv. format (_gordon003_2.csv_)
 
 To go through specific artists, just add their username into the variable user_list and must be undercase.
 You can find their username their URL "https://www.deviantart.com/USERNAME"
