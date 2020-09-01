@@ -46,5 +46,6 @@ tags_list = ["totaldrama"]
 ## How to run it
 ```python
 py deviantart_1.py
+
 py deviantart_2.py
 ```
