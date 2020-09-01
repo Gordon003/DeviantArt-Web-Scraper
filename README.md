@@ -42,3 +42,9 @@ tags_list = ["totaldrama"]
   * https://chromedriver.chromium.org/getting-started
 * Google Chrome
   * Can also use Firefox but you need to change the code
+
+## How to run it
+```python
+py deviantart_1.py
+py deviantart_2.py
+```
